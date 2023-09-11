@@ -1,0 +1,137 @@
+[07-Sep-2023 05:43:06 UTC] PHP Fatal error:  Cannot use App\Models\EmployeeAttendence as EmployeeAttendence because the name is already in use in /home/learningcmp/dashboard/app/Http/Controllers/HomeController.php on line 12
+[07-Sep-2023 05:43:35 UTC] PHP Fatal error:  Cannot use App\Models\EmployeeAttendence as EmployeeAttendence because the name is already in use in /home/learningcmp/dashboard/app/Http/Controllers/HomeController.php on line 12
+[09-Sep-2023 18:35:41 UTC] PHP Fatal error:  Uncaught ReflectionException: Class "view" does not exist in /home/learningcmp/dashboard/vendor/laravel/framework/src/Illuminate/Container/Container.php:912
+Stack trace:
+#0 /home/learningcmp/dashboard/vendor/laravel/framework/src/Illuminate/Container/Container.php(912): ReflectionClass->__construct()
+#1 /home/learningcmp/dashboard/vendor/laravel/framework/src/Illuminate/Container/Container.php(795): Illuminate\Container\Container->build()
+#2 /home/learningcmp/dashboard/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(937): Illuminate\Container\Container->resolve()
+#3 /home/learningcmp/dashboard/vendor/laravel/framework/src/Illuminate/Container/Container.php(731): Illuminate\Foundation\Application->resolve()
+#4 /home/learningcmp/dashboard/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(922): Illuminate\Container\Container->make()
+#5 /home/learningcmp/dashboard/vendor/laravel/framework/src/Illuminate/Container/Container.php(1454): Illuminate\Foundation\Application->make()
+#6 /home/learningcmp/dashboard/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(236): Illuminate\Container\Container->offsetGet()
+#7 /home/learningcmp/dashboard/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(207): Illuminate\Support\Facades\Facade::resolveFacadeInstance()
+#8 /home/learningcmp/dashboard/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(347): Illuminate\Support\Facades\Facade::getFacadeRoot()
+#9 /home/learningcmp/dashboard/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(16): Illuminate\Support\Facades\Facade::__callStatic()
+#10 /home/learningcmp/dashboard/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(674): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#11 /home/learningcmp/dashboard/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(655): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#12 /home/learningcmp/dashboard/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(586): Illuminate\Foundation\Exceptions\Handler->renderHttpException()
+#13 /home/learningcmp/dashboard/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(492): Illuminate\Foundation\Exceptions\Handler->prepareResponse()
+#14 /home/learningcmp/dashboard/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(409): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse()
+#15 /home/learningcmp/dashboard/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(217): Illuminate\Foundation\Exceptions\Handler->render()
+#16 /home/learningcmp/dashboard/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(194): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#17 /home/learningcmp/dashboard/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(254): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#18 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#19 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [view] does not exist. in /home/learningcmp/dashboard/vendor/laravel/framework/src/Illuminate/Container/Container.php:914
+Stack trace:
+#0 /home/learningcmp/dashboard/vendor/laravel/framework/src/Illuminate/Container/Container.php(795): Illuminate\Container\Container->build()
+#1 /home/learningcmp/dashboard/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(937): Illuminate\Container\Container->resolve()
+#2 /home/learningcmp/dashboard/vendor/laravel/framework/src/Illuminate/Container/Container.php(731): Illuminate\Foundation\Application->resolve()
+#3 /home/learningcmp/dashboard/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(922): Illuminate\Container\Container->make()
+#4 /home/learningcmp/dashboard/vendor/laravel/framework/src/Illuminate/Container/Container.php(1454): Illuminate\Foundation\Application->make()
+#5 /home/learningcmp/dashboard/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(236): Illuminate\Container\Container->offsetGet()
+#6 /home/learningcmp/dashboard/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(207): Illuminate\Support\Facades\Facade::resolveFacadeInstance()
+#7 /home/learningcmp/dashboard/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(347): Illuminate\Support\Facades\Facade::getFacadeRoot()
+#8 /home/learningcmp/dashboard/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(16): Illuminate\Support\Facades\Facade::__callStatic()
+#9 /home/learningcmp/dashboard/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(674): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#10 /home/learningcmp/dashboard/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(655): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#11 /home/learningcmp/dashboard/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(586): Illuminate\Foundation\Exceptions\Handler->renderHttpException()
+#12 /home/learningcmp/dashboard/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(492): Illuminate\Foundation\Exceptions\Handler->prepareResponse()
+#13 /home/learningcmp/dashboard/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(409): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse()
+#14 /home/learningcmp/dashboard/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(217): Illuminate\Foundation\Exceptions\Handler->render()
+#15 /home/learningcmp/dashboard/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(194): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#16 /home/learningcmp/dashboard/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(254): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#17 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#18 {main}
+  thrown in /home/learningcmp/dashboard/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 914
+[09-Sep-2023 18:35:50 UTC] PHP Fatal error:  Uncaught ReflectionException: Class "view" does not exist in /home/learningcmp/dashboard/vendor/laravel/framework/src/Illuminate/Container/Container.php:912
+Stack trace:
+#0 /home/learningcmp/dashboard/vendor/laravel/framework/src/Illuminate/Container/Container.php(912): ReflectionClass->__construct()
+#1 /home/learningcmp/dashboard/vendor/laravel/framework/src/Illuminate/Container/Container.php(795): Illuminate\Container\Container->build()
+#2 /home/learningcmp/dashboard/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(937): Illuminate\Container\Container->resolve()
+#3 /home/learningcmp/dashboard/vendor/laravel/framework/src/Illuminate/Container/Container.php(731): Illuminate\Foundation\Application->resolve()
+#4 /home/learningcmp/dashboard/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(922): Illuminate\Container\Container->make()
+#5 /home/learningcmp/dashboard/vendor/laravel/framework/src/Illuminate/Container/Container.php(1454): Illuminate\Foundation\Application->make()
+#6 /home/learningcmp/dashboard/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(236): Illuminate\Container\Container->offsetGet()
+#7 /home/learningcmp/dashboard/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(207): Illuminate\Support\Facades\Facade::resolveFacadeInstance()
+#8 /home/learningcmp/dashboard/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(347): Illuminate\Support\Facades\Facade::getFacadeRoot()
+#9 /home/learningcmp/dashboard/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(16): Illuminate\Support\Facades\Facade::__callStatic()
+#10 /home/learningcmp/dashboard/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(674): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#11 /home/learningcmp/dashboard/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(655): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#12 /home/learningcmp/dashboard/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(586): Illuminate\Foundation\Exceptions\Handler->renderHttpException()
+#13 /home/learningcmp/dashboard/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(492): Illuminate\Foundation\Exceptions\Handler->prepareResponse()
+#14 /home/learningcmp/dashboard/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(409): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse()
+#15 /home/learningcmp/dashboard/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(217): Illuminate\Foundation\Exceptions\Handler->render()
+#16 /home/learningcmp/dashboard/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(194): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#17 /home/learningcmp/dashboard/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(254): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#18 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#19 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [view] does not exist. in /home/learningcmp/dashboard/vendor/laravel/framework/src/Illuminate/Container/Container.php:914
+Stack trace:
+#0 /home/learningcmp/dashboard/vendor/laravel/framework/src/Illuminate/Container/Container.php(795): Illuminate\Container\Container->build()
+#1 /home/learningcmp/dashboard/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(937): Illuminate\Container\Container->resolve()
+#2 /home/learningcmp/dashboard/vendor/laravel/framework/src/Illuminate/Container/Container.php(731): Illuminate\Foundation\Application->resolve()
+#3 /home/learningcmp/dashboard/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(922): Illuminate\Container\Container->make()
+#4 /home/learningcmp/dashboard/vendor/laravel/framework/src/Illuminate/Container/Container.php(1454): Illuminate\Foundation\Application->make()
+#5 /home/learningcmp/dashboard/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(236): Illuminate\Container\Container->offsetGet()
+#6 /home/learningcmp/dashboard/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(207): Illuminate\Support\Facades\Facade::resolveFacadeInstance()
+#7 /home/learningcmp/dashboard/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(347): Illuminate\Support\Facades\Facade::getFacadeRoot()
+#8 /home/learningcmp/dashboard/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(16): Illuminate\Support\Facades\Facade::__callStatic()
+#9 /home/learningcmp/dashboard/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(674): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#10 /home/learningcmp/dashboard/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(655): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#11 /home/learningcmp/dashboard/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(586): Illuminate\Foundation\Exceptions\Handler->renderHttpException()
+#12 /home/learningcmp/dashboard/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(492): Illuminate\Foundation\Exceptions\Handler->prepareResponse()
+#13 /home/learningcmp/dashboard/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(409): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse()
+#14 /home/learningcmp/dashboard/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(217): Illuminate\Foundation\Exceptions\Handler->render()
+#15 /home/learningcmp/dashboard/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(194): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#16 /home/learningcmp/dashboard/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(254): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#17 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#18 {main}
+  thrown in /home/learningcmp/dashboard/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 914
+[09-Sep-2023 18:36:08 UTC] PHP Fatal error:  Uncaught ReflectionException: Class "view" does not exist in /home/learningcmp/dashboard/vendor/laravel/framework/src/Illuminate/Container/Container.php:912
+Stack trace:
+#0 /home/learningcmp/dashboard/vendor/laravel/framework/src/Illuminate/Container/Container.php(912): ReflectionClass->__construct()
+#1 /home/learningcmp/dashboard/vendor/laravel/framework/src/Illuminate/Container/Container.php(795): Illuminate\Container\Container->build()
+#2 /home/learningcmp/dashboard/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(937): Illuminate\Container\Container->resolve()
+#3 /home/learningcmp/dashboard/vendor/laravel/framework/src/Illuminate/Container/Container.php(731): Illuminate\Foundation\Application->resolve()
+#4 /home/learningcmp/dashboard/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(922): Illuminate\Container\Container->make()
+#5 /home/learningcmp/dashboard/vendor/laravel/framework/src/Illuminate/Container/Container.php(1454): Illuminate\Foundation\Application->make()
+#6 /home/learningcmp/dashboard/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(236): Illuminate\Container\Container->offsetGet()
+#7 /home/learningcmp/dashboard/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(207): Illuminate\Support\Facades\Facade::resolveFacadeInstance()
+#8 /home/learningcmp/dashboard/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(347): Illuminate\Support\Facades\Facade::getFacadeRoot()
+#9 /home/learningcmp/dashboard/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(16): Illuminate\Support\Facades\Facade::__callStatic()
+#10 /home/learningcmp/dashboard/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(674): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#11 /home/learningcmp/dashboard/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(655): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#12 /home/learningcmp/dashboard/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(586): Illuminate\Foundation\Exceptions\Handler->renderHttpException()
+#13 /home/learningcmp/dashboard/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(492): Illuminate\Foundation\Exceptions\Handler->prepareResponse()
+#14 /home/learningcmp/dashboard/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(409): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse()
+#15 /home/learningcmp/dashboard/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(217): Illuminate\Foundation\Exceptions\Handler->render()
+#16 /home/learningcmp/dashboard/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(194): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#17 /home/learningcmp/dashboard/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(254): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#18 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#19 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [view] does not exist. in /home/learningcmp/dashboard/vendor/laravel/framework/src/Illuminate/Container/Container.php:914
+Stack trace:
+#0 /home/learningcmp/dashboard/vendor/laravel/framework/src/Illuminate/Container/Container.php(795): Illuminate\Container\Container->build()
+#1 /home/learningcmp/dashboard/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(937): Illuminate\Container\Container->resolve()
+#2 /home/learningcmp/dashboard/vendor/laravel/framework/src/Illuminate/Container/Container.php(731): Illuminate\Foundation\Application->resolve()
+#3 /home/learningcmp/dashboard/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(922): Illuminate\Container\Container->make()
+#4 /home/learningcmp/dashboard/vendor/laravel/framework/src/Illuminate/Container/Container.php(1454): Illuminate\Foundation\Application->make()
+#5 /home/learningcmp/dashboard/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(236): Illuminate\Container\Container->offsetGet()
+#6 /home/learningcmp/dashboard/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(207): Illuminate\Support\Facades\Facade::resolveFacadeInstance()
+#7 /home/learningcmp/dashboard/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(347): Illuminate\Support\Facades\Facade::getFacadeRoot()
+#8 /home/learningcmp/dashboard/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(16): Illuminate\Support\Facades\Facade::__callStatic()
+#9 /home/learningcmp/dashboard/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(674): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#10 /home/learningcmp/dashboard/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(655): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#11 /home/learningcmp/dashboard/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(586): Illuminate\Foundation\Exceptions\Handler->renderHttpException()
+#12 /home/learningcmp/dashboard/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(492): Illuminate\Foundation\Exceptions\Handler->prepareResponse()
+#13 /home/learningcmp/dashboard/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(409): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse()
+#14 /home/learningcmp/dashboard/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(217): Illuminate\Foundation\Exceptions\Handler->render()
+#15 /home/learningcmp/dashboard/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(194): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#16 /home/learningcmp/dashboard/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(254): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#17 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#18 {main}
+  thrown in /home/learningcmp/dashboard/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 914

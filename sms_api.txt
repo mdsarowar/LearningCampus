@@ -1,0 +1,73 @@
+//sms credentials
+url = 'http://smsp2.durjoysoft.com/api/v2/SendSMS',
+apiKey = '4AQkrR7nNH3x7OJAVAjp8zRX5mAfKq6/t09cH+zec1E=',
+clientId = '815b6d25-3139-41fb-a6c3-40075d832056',
+senderId = '8809617611841',
+
+//sent message list
+<script>
+    $(function () {         
+         $.ajax({
+            type: "GET",
+            url: "http://smsp2.durjoysoft.com/api/v2/SMS?ApiKey={ApiKey}&ClientId={ClientId}&start={start}&length={length}&fromdate={fromdate}&enddate={enddate}",
+            contentType: "application/json",
+            dataType: 'json',
+            success: function (response) {
+                
+            }
+        });
+    });
+</script> 
+
+//create sms - get
+<script>   
+    $(function () {       
+        $.ajax({
+            type: "GEt",
+            url: "http://smsp2.durjoysoft.com/api/v2/SendSMS?ApiKey={ApiKey}&ClientId={ClientId}&SenderId={SenderId}&Message={Message}
+                 &MobileNumbers={MobileNumbers}",
+            contentType: "application/json",
+            dataType: 'json',           
+            success: function (response) {                
+            }
+        });
+    });
+
+</script>
+
+//create sms - post
+ <script>   
+    $(function () {
+       var Jsondata = {
+            'SenderId': 'hello',
+            'ApiKey': 'ApiKey',
+            'ClientId': 'ClientId',
+            'Message': 'Message',
+            'MobileNumbers': '78945613,789465124'
+        };
+        $.ajax({
+            type: "POST",
+            url: "http://smsp2.durjoysoft.com/api/v2/SendSMS",
+            contentType: "application/json",
+            dataType: 'json',
+            data: JSON.stringify(Jsondata),
+            success: function (response) {                
+            }
+        });
+    });
+
+</script>
+
+//get credit
+<script>
+    $(function () {
+        $.ajax({
+            type: "GET",
+            url: "http://smsp2.durjoysoft.com/api/v2/Balance?ApiKey={ApiKey}&ClientId={ClientId}",
+            contentType: "application/json ",
+            dataType: 'json ',
+            success: function (response) {                
+            }
+        });
+    });
+</script> 

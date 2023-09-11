@@ -1,0 +1,25 @@
+{
+    "open sans": {
+        "300": "C:\\xampp\\htdocs\\genius\\learningNew\\full_project\\full_project\\storage\\fonts\/open_sans_300_1d6849e351b30d7d7fb264a1878f4b3a",
+        "normal": "C:\\xampp\\htdocs\\genius\\learningNew\\full_project\\full_project\\storage\\fonts\/open_sans_normal_e3f9da90edb379e243cceabb2fdb3f0a",
+        "600": "C:\\xampp\\htdocs\\genius\\learningNew\\full_project\\full_project\\storage\\fonts\/open_sans_600_2a60ebfba7bda514848a0bbbd15b621a",
+        "bold": "open_sans_bold_074d893389082c36506eb383f9ca70e7"
+    },
+    "font awesome 5 brands": {
+        "normal": "font_awesome_5_brands_normal_9dfa8c62516440b8c28341bbd8e1e1a6"
+    },
+    "font awesome 5 free": {
+        "normal": "font_awesome_5_free_normal_af71647325c668a4db08ba27d7d6f208",
+        "900": "C:\\xampp\\htdocs\\genius\\learningNew\\full_project\\full_project\\storage\\fonts\/font_awesome_5_free_900_a965055b954610593aa543a60a2a06a2"
+    },
+    "font awesome 6 brands": {
+        "normal": "font_awesome_6_brands_normal_9dfa8c62516440b8c28341bbd8e1e1a6"
+    },
+    "font awesome 6 free": {
+        "normal": "C:\\xampp\\htdocs\\genius\\learningNew\\full_project\\full_project\\storage\\fonts\/font_awesome_6_free_normal_af71647325c668a4db08ba27d7d6f208",
+        "900": "font_awesome_6_free_900_a965055b954610593aa543a60a2a06a2"
+    },
+    "fontawesome": {
+        "normal": "fontawesome_normal_94f9bda9cbe7372e59d335df09ae7758"
+    }
+}
